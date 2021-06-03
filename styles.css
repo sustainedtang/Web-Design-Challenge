@@ -37,11 +37,17 @@ p{
 .navbar{
     position: absolute;
     right: 30px;
+    background:seagreen;
 }
 
-.navbar a{
-  background-color:white;
+
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
 }
+
 
 body {
   width: 100%;
@@ -102,3 +108,22 @@ body {
   padding: 5px;
   margin: 0px;
 }
+
+table, th, td {
+  border: 1px solid Black;}
+  
+  /* make the table a 100% wide by default */
+  table {
+  width: 100%;}
+  
+  /* if the browser window is at least 800px-s wide: */
+  @media (max-width: 800px) {
+    table {
+    width: 90%;}
+  }
+  
+  /* if the browser window is at least 1000px-s wide: */
+  @media (max-width: 1000px) {
+    table {
+    width: 80%;}
+  }

@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Web-Vis-Comparison sustainedtang</title>
+    <title>Web-Vis-Visual1 sustainedtang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -51,7 +52,9 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul class="navbar-nav">
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -62,6 +65,7 @@
                   >
                     Plots
                   </a>
+                
                   <div
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
@@ -73,17 +77,60 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link disabled"
-                    href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Comparisons</a
-                  >
+                    <a class="nav-link" href="comparisons.html">Comparisons</a>
+                  <li class="nav-item">
                   <a class="nav-link" href="data.html">Data</a>
+                </li>
                 </ul>
             </div>
           </nav>
         </div>
       </div>
     </div>
+    <div class="container">
+        <br>
+        <div class="row">
+          <!-- left side -->
+          <div class="col col-12 col-md-8 divbdy">
+            <br>
+            <h1>Max Temperature</h1>
+            <hr>
+            <a href="visualization-1.html"><img src="images/Fig1.png" alt="Latitude vs. Temperature"></a>
+    
+            <p>
+            As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends ot be warmer this time of year than the nothern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+            </p>
+            <hr>
+          </div>
+          <!-- left side end -->
+          <!-- rigth side -->
+          <div class="col col-12 col-md-4 divbdy">
+            <br>
+            <h2>Visualizations</h2>
+            <hr>
+            <div class='row'>
+              <div class="col col-3 col-md-6">
+                <a href="visualization-1.html"><img src="/Resources/assets/Visualizations/Fig1.png" alt="Latitude vs. Temperature" id="imgsel"></a>
+              </div>
+              <div class="col col-3 col-md-6">
+                <a href="visualization-2.html"><img src="/Resources/assets/Visualizations/Fig2.png" alt="Latitude vs. Humidity"></a>
+              </div>
+              <div class="col col-3 col-md-6">
+                <a href="visualization-3.html"><img src="/Resources/assets/Visualizations/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+              </div>
+              <div class="col col-3 col-md-6">
+                <a href="visualization-4.html"><img src="/Resources/assets/Visualizations/Fig4.png" alt="Latitude vs. Wind Speed"></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <br>
+      <footer>
+        <div class="row">
+          <div class="col col-12 divbtm">Author: Bryan Tang 2021</div>
+        </div>
+      </footer>
+    </body>
+    
