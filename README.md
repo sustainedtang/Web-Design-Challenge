@@ -42,3 +42,11 @@ Finally, the website must be deployed to GitHub pages.
 When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
 
 Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
+
+## References
+
+OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)
+
+- - -
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
