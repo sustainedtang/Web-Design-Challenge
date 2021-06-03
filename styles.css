@@ -3,12 +3,12 @@ img {
 }
 
 #imgsel{
-  border: lightseagreen 2px solid;
+  border: seagreen 2px solid;
 }
 
 h1, h2, h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: lightseagreen;
+  color:seagreen;
 }
 
 h1{
@@ -63,7 +63,7 @@ body {
 
 .homebtn a{
   width: 110px;
-  background: lightseagreen;
+  background: seagreen;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   font-weight: bold;
