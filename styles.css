@@ -125,21 +125,3 @@ body {
   margin: 0px;
 }
 
-table, th, td {
-  border: 1px solid Black;}
-  
-  /* make the table a 100% wide by default */
-  table {
-  width: 100%;}
-  
-  /* if the browser window is at least 800px-s wide: */
-  @media (max-width: 800px) {
-    table {
-    width: 90%;}
-  }
-  
-  /* if the browser window is at least 1000px-s wide: */
-  @media (max-width: 1000px) {
-    table {
-    width: 80%;}
-  }
